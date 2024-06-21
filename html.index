@@ -45,3 +45,79 @@
             </div>
         </section>
         <!-- end of about section -->
+
+ <!-- portfolio section -->
+ <section id = "portfolio" class = "vh-100 py-7">
+    <div class = "container">
+        <div class = "portfolio-content">
+            <div class = "title">
+                <h2>my work</h2>
+                <a href = "#contact" class = "btn-down">
+                    <i class = "fas fa-chevron-down"></i>
+                </a>
+            </div>
+
+            <div class = "portfolio-grid grid">
+                <div><img src = "imgs/Untitled-1.jpg"></div>
+                <div><img src = "imgs/Untitled-2.jpg"></div>
+                <div><img src = "imgs/Untitled-3.jpg"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of portfolio section -->
+
+  <!-- contact section -->
+  <section id = "contact" class = "py-7">
+    <div class = "container">
+        <div class = "contact-content flex">
+            <div class = "contact-left">
+                <div class="title">
+                    <h2>connect with me</h2>
+                </div>
+                <p class = "lead"><i class = "fas fa-envelope"></i> contact@gmail.com</p>
+                <form action="">
+                    <input type = "text" class = "form-control" placeholder="Your name here ...">
+                    <input type = "email" class = "form-control" placeholder="Your email here">
+                    <input type = "submit" class = "btn-submit btn" value = "Submit">
+                </form>
+            </div>
+
+            <div class = "contact-right">
+                <img src = "images/contact-pic.jpg" alt = "contact image">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of contact section -->
+
+</main>
+<!-- end of main content -->
+
+<!-- footer -->
+<footer id = "footer" class = "py-7">
+    <div class = "container">
+        <div class = "footer-content">
+            <div>
+                <h3>SN</h3>
+                <div><img src = "images/about-pic.jpg"></div>
+            </div>
+
+            <div>
+                <h3>Links</h3>
+                <ul class = "flex">
+                    <li><a href = "#">About Me</a></li>
+                    <li><a href = "#">Portfolio</a></li>
+                    <li><a href = "#">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end of footer -->
+
+
+<!-- typewriting js -->
+<script src = "typewriting-master/typewriting.js"></script>
+</body>
+</html>
